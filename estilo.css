@@ -1,5 +1,6 @@
 body {
-	background-image: url(img/banderaArg.jpg);
+	/*background-image: url(img/banderaArg.jpg);*/
+  background-color: #FFFFFF;
   background-repeat: repeat-y;
 	background-size: 120% 50%;
 	background-position: left-top;
@@ -9,7 +10,7 @@ body {
 header{
 
   text-align: center;
-  box-shadow: 0px 3px 10px #666666;
+  box-shadow: 0px 1px 10px #000000;
 }
 
 h1 { 
@@ -53,8 +54,8 @@ h1 {
 	
   margin-top: 20%;
   padding: 30px 7.5px;
-  box-shadow: 0px -3px 10px #666666;
-  box-shadow: 0px 3px 10px #666666;
+  box-shadow: 0px 1px 10px #000000;
+  box-shadow: 0px -1px 10px #00000;
 
 }
 
