@@ -1,19 +1,27 @@
 body {
 	background-image: url(img/banderaArg.jpg);
-	background-size: 120% 120%;
+  background-repeat: repeat-y;
+	background-size: 120% 50%;
 	background-position: left-top;
-	background-repeat: no-repeat;
+	
+}
+
+header{
+
+  text-align: center;
+  box-shadow: 0px 3px 10px #666666;
 }
 
 h1 { 
+
   color: #0F75BC;
   width: 100%;  
-  height: 30%;  
-  font: normal 2em GeosansLight;
+  height: 20%;  
+  font: normal 2.em Caladea;
   text-align: center;
-  padding-top: 5%;  
+  padding-top: 3%;  
   padding-right: 1px;
-  padding-bottom: 5%;  
+  padding-bottom: 3%;  
   padding-left: 15px;  
   margin-top: -8px;  
   margin-right: -8px;  
@@ -26,6 +34,16 @@ h1 {
   -ie-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
 }
 
+#logo{
+
+  position: top-left;
+  z-index: 10;
+  float: left;
+  margin-top: -30px;
+  margin-left: -10px;
+
+}
+
 #mainsect{
 
 	background-color: #FFFFFF;
@@ -33,7 +51,7 @@ h1 {
 	height: 33%;
 	margin-left: -7px;
 	
-  margin-top: 16%;
+  margin-top: 20%;
   padding: 30px 7.5px;
   box-shadow: 0px -3px 10px #666666;
   box-shadow: 0px 3px 10px #666666;
@@ -45,7 +63,16 @@ h1 {
   margin: 0px 47px;
 }
 
+#headertext{
+  width: 100%;
+  margin-left: -8;
+}
 footer{
-
+  width: 100%;
+  padding: 20px 20px 4px 2px;
+  margin-top: 100%;
+  margin-left: -1%;
+  float: left;
 	clear: both;
+  background-color: white;
 }
