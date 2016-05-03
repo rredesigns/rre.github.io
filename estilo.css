@@ -131,3 +131,8 @@ iframe{
   -webkit-transform:scale(1.1);
   -moz-transform:scale(1.1);
 }
+
+a {
+  display: inline-table;
+  width: 100px;
+}
