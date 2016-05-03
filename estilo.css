@@ -86,12 +86,12 @@ h1 {
   margin-right: 20%;
   width: 20%;
   height: 300px;
-  background-color: green;
-  border-color: red;
+  background-color: white;
+  border-color: #0F75BC;
   border-width: 2px;
   border-radius: 10px;
   list-style: none;
-  padding: 10px 10px;
+  padding: 5px 5px;
   box-shadow: 1px 1px 10px #000000;
   box-shadow: -1px -1px 10px #000000;
   
@@ -106,21 +106,26 @@ figure{
   padding: 10px 0px;
   margin: 10px auto;
   text-align: center;
-  border: 2px solid red;
+  border: 2px solid #0F75BC;
   width: 90%;
+  box-shadow: 1px 1px 3px #0F75BC;
+  box-shadow: -1px -1px -3px #0F75BC;
     
 }
 #lista1 img{
  padding: none;
 }
 footer{
-  width: 100%;
-  padding: 20px 20px 4px 2px;
-  margin-top: 100%;
+  width: 101.5%;
+  height: 100px;
+  text-align: center;
+  padding: 0px;
+  margin-top: %;
   margin-left: -1%;
   float: left;
 	clear: both;
-  background-color: white;
+  background-color: grey;
+  box-shadow: -1px 0px 3px #0F75BC;
 }
 iframe{
   padding-left: 8%;
@@ -135,4 +140,11 @@ iframe{
 a {
   display: inline-table;
   width: 100px;
+}
+
+iframe{
+  width: 85%;
+  height: 360px;
+  min-height: 80px;
+  min-width: 40%;
 }
