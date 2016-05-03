@@ -72,6 +72,8 @@ h1 {
 #mainsect img{
 
   margin: 0px 47px;
+  -webkit-transition:-webkit-transform 0.2s ease-in-out 0.1s;
+  -moz-transition:-moz-transform 0.2s ease-in-out 0.1s;
 }
 
 #headertext{
@@ -124,4 +126,8 @@ iframe{
   padding-left: 8%;
   position: relative;
   margin: auto auto;
+}
+#mainsect img:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
 }
