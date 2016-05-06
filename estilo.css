@@ -20,12 +20,15 @@ header{
   width: 100%;
   position: relative;
   z-index: -10;
+  align-content: center;
+  margin: 0px;
  
   content: 
 }
 #paneluno{
-  width: 101.2%;
+  width: 100%;
   height: auto;
+  
 }
 
 h1 { 
