@@ -47,15 +47,16 @@ body {
 header{
   color: #0F75BC;
   width: 100%;  
-  height: 20%;  
-  padding-top: 3%;  
-  padding-bottom: 3%;  
+  height: 15%;  
+  padding-top: 2%;  
+  padding-bottom: 2%;  
   margin-top: 0px;  
   margin-right: 0px;  
   margin-bottom: 0px;  
   margin-left: 0px;  
   background-color: #FFFFFF; 
   border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 0px 10px #000000;
   background: -moz-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%); 
   -webkit-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
   -ie-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
@@ -77,10 +78,11 @@ header{
   
 }
 #logo{
-  width: 20%;
-  height: auto;
+  width: 15%;
+  height: 10%;
   z-index: 10; 
   margin-left: 0px;  
+  margin-top: -1%;
 }
 #logo img{
   width: 100%;
@@ -94,9 +96,9 @@ header{
   margin-top: -2%;
   z-index: 0;
   display: inline-block;
-  padding: 2% 0px 1% 0px;
-  box-shadow: 0px 1px 10px #000000;
-  box-shadow: 0px -1px 10px #00000;
+  padding: 1% 0px 1% 0px;
+  box-shadow: 0px 0px 10px #000000;
+ 
   
 }
 #pag2{
@@ -105,8 +107,7 @@ header{
   margin: 50px auto;
   border-radius: 10px;
   padding: 5px;
-  box-shadow: 1px 1px 10px #000000;
-  box-shadow: -1px -1px 10px #000000;
+  box-shadow: 0px 0px 10px #000000;
   clear: both;
 }
 #mainsect img{
@@ -120,11 +121,10 @@ header{
   -moz-transition:-moz-transform 0.2s ease-in-out 0.1s;
 }
 #htext{
-  position: fixed;
+  position: relative;
   width: 70%;
   height: 6%;
-  margin-left: 25%
-  
+  margin-left: 23%  
 }
 #htext img{
   width: 100%;
@@ -142,8 +142,7 @@ header{
   border-radius: 10px;
   list-style: none;
   padding: 5px 5px;
-  box-shadow: 1px 1px 10px #000000;
-  box-shadow: -1px -1px 10px #000000;
+  box-shadow: 0px 0px 10px #000000;
   
 }
 #lista1 li{
@@ -154,8 +153,7 @@ header{
   text-align: center;
   border: 2px solid #0F75BC;
   width: 90%;
-  box-shadow: 1px 1px 3px #0F75BC;
-  box-shadow: -1px -1px -3px #0F75BC;
+  box-shadow: 0px 0px 5px #0F75BC;
     
 }
 #lista1 img{
