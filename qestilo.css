@@ -1,4 +1,6 @@
 body{
+	height: 100%;
+	width: 100%;
 	padding: 0px;
 	margin: 0px;
 }
@@ -6,20 +8,35 @@ body{
 #container{
 	width: 100%;
 	height: 100%;
+	background-color: white;
 }
 
 #nav{
 	width: 100%;
 	height: 20%;
-	background-color: grey;
+	background-color: white;
+	box-shadow: 1px 1px 5px 1px #0F75BC
 }
 
+#htext{
+	width: 50%;
+	height: auto;	
+	margin-left: 25%;
+	position: absolute;
+  margin-top: -7%;
+	
+}
+
+#htext img{
+	width: 100%;
+	height: auto;
+}
 #logo{
   width: 20%;
   height: auto;
   z-index: 10; 
-  margin-left: 0px;
-  }
+  margin-left: 0%;
+}
 
 #logo img{
 	width: 100%;
@@ -31,21 +48,43 @@ footer{
 	background-color: #222222;
 }
 
-ul{
-	list-style: none;
-	display: inline;
+#list{
+	width: 98%;
+	height: 100
 }
 
-ul div{
-	width: 300px;
-	height: auto;
+.listItem{
+	max-height: 20%;
+	width: 100%;
+	margin: 1%;
+	border-style: solid;
+	border: 1px;
+	clear: both;
+	background-color: white;
+	overflow: auto;
+	box-shadow: 1px 1px 5px 1px #0F75BC, -1px -1px 5px 1px #0F75BC;
+	
+}
+
+.listItem img{
+	object-fit: scale-down;
+	border-radius: 200px;
+  max-height: 15%;
+	max-width: 15%;
 	float: left;
-	background-color: grey;
-	padding: 1% 1% 20% 1%;
-	margin: 5%;
+	border-style: solid;
+	border-color: #0F75BC;
+	margin: 1%;
+	
 }
 
-ul img{
-	width: 300px;
-	height: auto;
+.subtitulo{
+	width: 100%;
+	height: 10%;
+	padding: 1% 0%;
+	background-color: #0F75BC;
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	margin: 2% 0%;
 }
