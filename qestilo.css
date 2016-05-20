@@ -18,6 +18,20 @@ body{
 	box-shadow: 1px 1px 5px 1px #0F75BC
 }
 
+article{
+	width: 98%;
+	height: 100%;
+}
+
+p{
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+}
+
+span{
+	font-size:70%;
+}
+
 #htext{
 	width: 50%;
 	height: auto;	
@@ -62,7 +76,7 @@ footer{
 	clear: both;
 	background-color: white;
 	overflow: auto;
-	box-shadow: 1px 1px 5px 1px #0F75BC, -1px -1px 5px 1px #0F75BC;
+	box-shadow: 1px 1px 5px 1px #999999, -1px -1px 5px 1px #999999;
 	
 }
 
