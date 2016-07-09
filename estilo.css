@@ -56,7 +56,7 @@ header{
   margin-bottom: 0px;  
   margin-left: 0px;  
   background-color: #FFFFFF; 
-  border-radius: 0px 0px 5px 5px;
+  --border-radius: 0px 0px 5px 5px;
   background: -moz-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%); 
   background: -webkit-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
   background: -ie-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
@@ -79,7 +79,7 @@ header{
   
 }
 #logo{
-  width: 20%;
+  width: 15%;
   height: auto;
   z-index: 10; 
   margin-left: 0px;  
@@ -106,7 +106,7 @@ header{
   width: 50%;
   min-height: 50%;
   margin: 50px auto;
-  border-radius: 10px;
+  /*! border-radius: 10px; */
   padding: 5px;
   box-shadow: 1px 1px 10px #000000;
   box-shadow: -1px -1px 10px #000000;
@@ -132,7 +132,7 @@ header{
   width: 50%;
   height: auto;
   margin-left: 25%;
-  margin-top: -7%;
+  margin-top: -6%;
   float: left;
   
 }
@@ -142,15 +142,14 @@ header{
 }
 #lista1{
   display: inline-block;
-  position: relative;
-  margin-top: -100%;
-  margin-right: 20%;
+  position: absolute;
+  margin-top: -61.5%;
+  margin-left: 1%;
   width: 20%;
   height: 30%;
   background-color: white;
   border-color: #0F75BC;
   border-width: 2px;
-  border-radius: 10px;
   list-style: none;
   padding: 5px 5px;
   padding-bottom: 10%;
@@ -159,15 +158,13 @@ header{
 }
 #lista1 li{
   background: white;
-  border-radius: 5px;
+  --border-radius: 5px;
   padding: 10px 0px;
   margin: 10px auto;
   text-align: center;
-  border: 2px solid #0F75BC;
+  border: 1px solid #0F75BC;
   width: 90%;
-  box-shadow: 1px 1px 3px #0F75BC;
-  box-shadow: -1px -1px -3px #0F75BC;
-    
+  box-shadow: 1px 1px 3px #0F75BC; -1px -1px -3px #0F75BC;   
 }
 #lista1 img{
  padding: none;
