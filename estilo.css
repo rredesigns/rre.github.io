@@ -1,3 +1,4 @@
+
 body {
 	
   background-color: #FFFFFF;
@@ -48,7 +49,7 @@ body {
 header{
   color: #0F75BC;
   width: 100%;  
-  height: 10%;  
+  height: 15%;  
   padding-top: 1%;  
   padding-bottom: 1%;  
   margin-top: 0px;  
@@ -76,7 +77,6 @@ header{
 #paneluno{
   width: 100%;
   height: auto;
-  
 }
 #logo{
   width: 15%;
@@ -95,7 +95,7 @@ header{
 	height: 40%;
   margin-top: -4%;
   z-index: 0;
-  display: inline-block;
+  display: inline;
   padding: 1% 0px 1% 0px;
   box-shadow: 0px 1px 5px 1px #000000;
   box-shadow: 0px -1px 5px 1px #00000;
@@ -132,7 +132,7 @@ header{
   width: 50%;
   height: auto;
   margin-left: 25%;
-  margin-top: -6%;
+  margin-top: -5%;
   float: left;
   
 }
@@ -224,14 +224,49 @@ iframe{
   vertical-align: top;
 }
 footer img{
-  width: 100%;
+  width: 80%;
   height: 50%;
+  padding: 10% 0%
 }
 
-#logo1{
+#footerM #logo1{
   width: 100%;
 }
 
-#logo2{
-  width: 70%;
+#pilares{
+  list-style: none;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  height: 90%;
+  width: 100%;
+  padding: 0% 0%;
+}
+
+#pilares li{
+  width: 90%;
+  height: 30%;
+  text-align: justify;
+  border: 1px solid #0F75BC;
+  padding: 1% 1% 0% 0%;
+  margin: 0% 0% 2% 4%;
+  font-family: sans-serif;
+  box-shadow: 0.5px 0.5px 8px grey;
+}
+
+#pilares a{
+  text-align: center;
+}
+#pilares li img{
+  float: left;
+  height: 90%;
+  width: auto;
+  padding: 0%;
+  margin: 0% 1% 0% 1%;
+}
+
+h2{
+  font-size: 1.2em;
+  text-align: center;  
+  font-family: serif;
 }
