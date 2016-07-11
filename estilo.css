@@ -340,6 +340,11 @@ h3 {
   text-indent: 0px;
 }
 
+#sinjustificar{
+  text-align: left;
+  text-indent: 0px;
+}
+
 table{
   border: 3px solid grey;
   border-collapse: collapse;
@@ -364,4 +369,8 @@ vertical-align: top;
 
 #tablasub{
   color: #0F75BC;
+}
+
+#faqvideo{
+  padding: 0% 0% 0% 2%;
 }
