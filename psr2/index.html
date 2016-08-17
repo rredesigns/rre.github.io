@@ -160,19 +160,19 @@
 
 
 <!--Division between card tiers-->
-<div class="w3-row w3-theme">
+<div class="w3-row w3-white">
 
-    <div class="w3-third w3-theme w3-left" style="text-align:center;float:left;display:inline-block">
-      <p class="w3-margin-0 w3-medium"><h5>Nacionales</h5><img src="img/icons/arrow-up.png" style="height:15px;width:auto;margin-bottom:5px;">
+    <div class="w3-quarter w3-theme w3-left" style="text-align:center;float:left;display:inline-block">
+      <p class="w3-margin-0 w3-medium"><h5>Nacionales</h5><img src="img/icons/arrow-up.png" style="height:15px;width:auto;margin-bottom:5px;box-sizing:border-box">
     </div>
     
-    <div class="w3-third w3-teal w3-third w3-center w3-padding-16" style="float:left;display:inline-block;font-size:1.8em">
+    <div class="w3-third w3-teal w3-third w3-center w3-padding-16" style="float:left;display:inline-block;font-size:1.83em;box-sizing:border-box">
 
       Últimas Noticias
 
     </div>
-    <div class="w3-third w3-theme w3-right" style=";text-align:center;float:left;display:inline-block">
-      <p class="w3-margin-0 w3-medium"><h5>Internacionales</h5><img src="img/icons/arrow-down.png" style="height:15px;width:auto;margin-bottom:5px;">
+    <div class="w3-quarter w3-theme " style=";text-align:center;float:left;display:inline-block;margin-right:0%">
+      <p class="w3-margin-0 w3-medium"><h5>Internacionales</h5><img src="img/icons/arrow-down.png" style="height:15px;width:auto;margin-bottom:5px;box-sizing:border-box">
     </div>
   
 </div>
