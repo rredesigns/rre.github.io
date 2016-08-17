@@ -1,0 +1,24 @@
+@font-face{
+	font-family: GE-Inspira;
+	src: url(ge-inspira.ttf);
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font-family: GE-Inspira;
+	color: #0E94D8;
+}
+h2{
+	font-family: GE-Inspira;
+	color: white;
+}
+h3{
+	color: #0E94D8;
+}
+h4{
+	color: #626262;
+}

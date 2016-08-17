@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+  font-family: sans-serif;
   text-align: justify;
   background-color: #FFFFFF;
   margin: 0px;
@@ -62,10 +62,10 @@ header{
   margin-bottom: 0%;  
   margin-left: 0px;  
   background-color: #FFFFFF; 
-  background: -moz-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%); 
-  background: -webkit-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
-  background: -ie-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
-  background: -o-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
+ # background: -moz-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%); 
+ # background: -webkit-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
+ # background: -ie-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
+ # background: -o-linear-gradient(top, #ECECEC 1%, #FFFFFF 25%, #FFFFFF 75%, #ECECEC 100%);
   box-shadow: 1px 0px 5px 1px #000000;
   --display: inline-block;
 }
@@ -167,7 +167,7 @@ header{
 #lista1{
   display: inline-block;
   position: absolute;
-  margin-top: -63%;
+  margin-top: -72.7%;
   margin-left: 1%;
   width: 20%;
   height: 30%;
@@ -317,7 +317,7 @@ footer img{
   height: 90%;
   width: auto;
   padding: 0%;
-  margin: 0% 1% 0% 1%;
+  margin: 0% 1% 1% 1%;
 }
 
 h2{
