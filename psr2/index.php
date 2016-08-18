@@ -22,15 +22,10 @@
 
 
 
-<!--Body starts here!-->
-
-	<body class="w3-container w3-padding-0">
+<!-- Body starts here! -->
 
 
-
-
-
-
+<!-- Main nav menu -->
 
     <div id="main" class="w3-container w3-padding-0">
       <div id="mainbg"class="w3-container w3-white w3-padding-0"><img src="img/psr_header.jpg" id="mainbg"></div>
@@ -76,82 +71,106 @@
       </div>
 
     </div>
+<!-- Main nav menu ends -->
 
 
 
-
-
+<!-- Second nav menu -->
 
 
 
     <div id="submain" class="w3-container w3-white w3-padding-16">
 
 
-      <ul class="w3-container w3-theme-d1 w3-large w3-padding-15" id:="nav">
+      <ul class="w3-navbar w3-theme-d1 w3-medium w3-padding-4 w3-margin-bottom" style="width: 79%; margin:auto" id:="nav">
         
-        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" href="#">Presentación del PSR</a></li>
+        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2 w3-margin-left"><a class="w3-theme-d1" style="text-decoration: none;" href="#">Presentación del PSR</a></li>
        
-        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" href="#">Videos</a></li>
-       
-        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2 w3-right"><a class="w3-theme-d1" href="#">Acciones Ciudadanas</a></li>
+        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" style="text-decoration: none;" href="#">Videos</a></li>
 
-         <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2 w3-right"><a class="w3-theme-d1" href="#">Contáctenos</a></li>
-      
+        <li id="navb" class="w3-btn w3-quarter w3-padding-1 w3-teal w3-border-2 w3-dropdown-hover"><a class="" style="text-decoration: none;" href="#">Menú</a>
+
+          <div class="w3-dropdown-content w3-white w3-card-4">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+
+        </li>
+       
+        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" style="text-decoration: none;" href="#">Acciones Ciudadanas</a></li>
+
+        <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" style="text-decoration: none;" href="#">Contáctenos</a></li>
+
       </ul>
 
       <div class="w3-row">
 
+<!-- Second nav menu ends -->
+
+
+<!-- left empty quarter of the screen-->
+
         <div class="w3-col" style="width:15%"><p></p></div>
 
-        <div class="w3-col w3-theme" style="width:70%">
+<!-- left empty quarter of the screen ends-->
+
+<!-- Second page level starts here -->
+
+        <div class="w3-col w3-white" style="width:70%">
 
 
  
 
           <div class="w3-row w3-white w3-padding-0">
 
+  <body class="w3-container w3-padding-0 right:0">
 
 
-<!--News National cards-->
+
+
+     
+
+
+<!-- News National cards -->
 
 
 
                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+                  <div class="w3-container w3-theme">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-theme">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-theme">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-theme">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-theme">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-theme">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-theme">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-theme">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
-
 
 
           
@@ -159,73 +178,75 @@
           </div>
 
 
-<!--Division between card tiers-->
-<div class="w3-row w3-white">
 
-    <div class="w3-quarter w3-theme w3-left" style="text-align:center;float:left;display:inline-block">
-      <p class="w3-margin-0 w3-medium"><h5>Nacionales</h5><img src="img/icons/arrow-up.png" style="height:15px;width:auto;margin-bottom:5px;box-sizing:border-box">
-    </div>
-    
-    <div class="w3-third w3-teal w3-third w3-center w3-padding-16" style="float:left;display:inline-block;font-size:1.83em;box-sizing:border-box">
+<!--      Division between card tiers     -->
 
-      Últimas Noticias
 
-    </div>
-    <div class="w3-quarter w3-theme " style=";text-align:center;float:left;display:inline-block;margin-right:0%">
-      <p class="w3-margin-0 w3-medium"><h5>Internacionales</h5><img src="img/icons/arrow-down.png" style="height:15px;width:auto;margin-bottom:5px;box-sizing:border-box">
-    </div>
-  
+<div class="w3-container w3-teal w3-center w3-padding-0" style="width:97%;display:inline-block">
+ 
+  <h6 class="w3-container w3-third w3-" style="word-spacing:6px;">Nacionales <i class="fa fa-caret-up w3-xlarge"></i></h6>
+
+  <h6 class="w3-container w3-third">Últimos artículos</h6>
+
+  <h6 class="w3-container w3-third " style="word-spacing:6px;"><i class="fa fa-caret-down w3-xlarge"></i> Internacionales.</h6>
+
 </div>
-<!--division ends-->
+
+
+<!--    division ends     -->
 
 
 
-<!--International News Section-->
+<!--    International News Section    -->
 
 
        <div class="w3-row w3-white w3-padding-0">
 
 
 
-<!--News International cards-->
+<!--    News International cards    -->
 
         
               <div class="w3-container w3-white" style="width:100%;height:16px;max-height:16px;"></div>
+
                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+                  <div class="w3-container w3-blue-grey">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-blue-grey">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-blue-grey">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-blue-grey">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-blue-grey">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-blue-grey">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
 
-                <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
-                  <div class="w3-container w3-theme-d2">Categoría</div>
+               <div id="card" class="w3-third-4 w3-quarter w3-padding-0 w3-margin-right w3-margin-bottom">
+                  <div class="w3-container w3-blue-grey">Categoría</div>
                   <img  src="img/card_dummy.jpg" style="width:100%;">
-                  <div class="w3-container w3-theme-d2">
-                  <p><h4>Title here</h4><p>And the text body with plenty of text</p></p>
+                  <div class="w3-container w3-blue-grey">
+                  <p><h6>Title here<p>And the text body with plenty of text</p></h6></p>
                   </div>
 
                </div>
+
+
+          
 
 
 
@@ -237,15 +258,21 @@
 
 
 
+              </div>
+    <!--  right empty quarter of the screen  -->
+
+
+        <div class="w3-col" style="width:15%">
+
         </div>
 
-        <div class="w3-col" style="width:15%"><p></p></div>
+    <!--  right empty quarter of the screen ends   -->
+
 
       </div>
 
 
     </div>
-
 
 
 
