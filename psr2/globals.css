@@ -22,3 +22,29 @@ h3{
 h4{
 	color: #626262;
 }
+
+
+
+
+
+
+
+
+footer{
+	box-sizing:border-box;
+	color: white;
+	text-align: left;
+}
+footer div img{
+	max-width: 150px;
+	max-height: 70px;
+	padding: 5px 0px;
+	margin: auto;
+	display: block;
+}
+#menuhr{
+	width: 30%;
+	margin: auto;
+}
+
+

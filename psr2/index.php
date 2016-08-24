@@ -36,32 +36,46 @@
           <div class="w3-col" style="width:70%">
 
             <div class="w3-row w3-padding-16">
+              <a href="quienes.html">
               <div id="quienes" class="w3-third w3-theme w3-padding-10">
                 <span class="fa fa-group" style="font-size:400%;color:white;"></span>
                 <hr style="margin:5% 30% 2% 30%"></hr>
                 <p><h2>Quiénes Somos</h2></p>
               </div>
+              </a>
+
+              <a href="#">
               <div id="quienes" class="w3-third w3-theme w3-padding-10">
                 <span class="fa fa-institution" style="font-size:700%;color:white;"></span>
                 <hr style="margin:5% 30% 2% 30%"></hr>
                 <p><h2>Pilares del PSR</h2></p>
               </div>
+              </a>
+
+              <a href="#">
               <div id="quienes" class="w3-third w3-theme w3-padding-10">
                 <span class="fa fa-map-marker" style="font-size:400%;color:white;"></span>
                 <hr style="margin:5% 30% 2% 30%"></hr>
                 <p><h2>Dónde Estamos</h2></p>
               </div>
+              </a>
               
+              <a href="#">
               <div id="quienes" class="w3-half w3-theme w3-padding-10">
                 <span class="fa fa-list-ul" style="font-size:400%;color:white;"></span>
                 <hr style="margin:5% 35% 2% 35%"></hr>
                 <p><h2>Preguntas Frecuentes</h2></p>
               </div>
+              </a>
+
+              <a href="#">
               <div id="quienes" class="w3-third w3-theme w3-padding-10">
                 <span class="fa fa-link" style="font-size:400%;color:white;"></span>
                 <hr style="margin:5% 30% 2% 30%"></hr>
                 <p><h2>Enlaces de Interés</h2></p>
               </div>
+              </a>
+              
             </div>
 
           </div>
@@ -88,12 +102,14 @@
        
         <li id="navb" class="w3-btn w3-padding-1 w3-theme-d1 w3-border-2"><a class="w3-theme-d1" style="text-decoration: none;" href="#">Videos</a></li>
 
-        <li id="navb" class="w3-btn w3-quarter w3-padding-1 w3-teal w3-border-2 w3-dropdown-hover"><a class="" style="text-decoration: none;" href="#">Menú</a>
+        <li id="navb" class="w3-btn w3-quarter w3-padding-1 w3-teal w3-border-2 w3-dropdown-hover"><a class="w3-hover-teal" style="text-decoration: none;" href="#">Menú</a>
 
-          <div class="w3-dropdown-content w3-white w3-card-4">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+          <div class="w3-dropdown-content w3-white w3-card-4 w3-center w3-hide-small" Style="width:17%; margin-left:0%">
+            <a href="#"><p><h4>Deuda Externa</h4></p><h6>Lic. Hector Giuliano</h6></a>
+            <hr id="menuhr">
+            <a href="#"><h4><p>Artículos</p> Nacionales</h4></a>
+            <hr id="menuhr">
+            <a href="#"><h4><p>Artículos</p> Internacionales</h4></a>
           </div>
 
         </li>

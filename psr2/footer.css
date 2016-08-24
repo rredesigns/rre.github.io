@@ -1,0 +1,16 @@
+footer{
+	box-sizing:border-box;
+	color: white;
+	text-align: left;
+}
+footer div img{
+	max-width: 150px;
+	max-height: 70px;
+	padding: 5px 0px;
+	margin: auto;
+	display: block;
+}
+hr{
+	width: 30%;
+	margin: 0% 35%;
+}
